@@ -48,7 +48,6 @@
 
 
 
-
 import React, { useState } from "react";
 
 const Button = ({ styles }) => {
@@ -77,14 +76,19 @@ const Button = ({ styles }) => {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/E04I8SJbUB8"
+              src="https://www.youtube.com/embed/lm3wIeX9znY"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
             <br></br>
-            <button onClick={closeDialog}>Close</button>
+            <button
+              onClick={closeDialog}
+              className="mt-4 py-2 px-4 bg-red-500 text-white rounded hover:bg-red-700"
+            >
+              Close
+            </button>
           </div>
         </div>
       )}
