@@ -91,7 +91,7 @@ const Step3Form = ({ formData, handleFileChange, handlePrevious, handleSubmit, c
         onClick={handleCloseDialog} // Close the dialog after submitting the form
         className="py-2 px-4 bg-primary text-white rounded-md"
       >
-        Next
+        Submit
       </button>
       {/* Cancel button */}
       <button
